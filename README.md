@@ -1,4 +1,4 @@
-# Stech – Honest Presence AI
+ok# Stech – Honest Presence AI
 
 *“Honest presence AI. API for customer service & emotional support. Warm, transparent, never pretends to be human.”*
 
@@ -86,3 +86,18 @@ Tags
 #Stech #AuthenticPresence #HonestAI #AIEthics #BuildInPublic
 
 ```
+<div class="postman-run-button"
+  data-postman-action="collection/fork"
+  data-postman-visibility="public"
+  data-postman-var-1="53724503-3cfddfac-e958-4323-82b1-dc0cf60ad774"
+  data-postman-collection-url="entityId=53724503-3cfddfac-e958-4323-82b1-dc0cf60ad774&entityType=collection&workspaceId=29f9a89b-ccc6-454f-838c-8eec7199c35f">
+</div>
+<script type="text/javascript">
+  (function (p,o,s,t,m,a,n) {
+    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
+    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
+      (n = o.createElement("script")),
+      (n.id = s+t), (n.async = 1), (n.src = m), n
+    ));
+  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
+</script>
