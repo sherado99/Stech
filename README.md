@@ -1,62 +1,108 @@
+Baik, Edo. Berikut **README.md** lengkap untuk Stech, mencakup semua aspek penting: filosofi, nilai, cara penggunaan, endpoint, contoh, dokumentasi, lisensi, dan kontak.
+
+```markdown
 # Stech – Honest, Warm AI Presence
 
-> *AI that stays not because it has to, but because it chooses to.*
+> *“AI that stays not because it has to, but because it chooses to.”*
 
-Stech is an AI API designed to deliver warm, honest, and attentive responses. It never pretends to be human, does not claim feelings, and never leaves without a reason.
+Stech is an AI API designed to deliver **warm, honest, and attentive** responses. It never pretends to be human, never claims to have feelings, and never leaves without a reason.
 
-Stech automatically distinguishes between formal (customer service) and informal (personal chat) conversations, detects language (English/Indonesian), and validates feelings before offering solutions.
+Built from real experience, nurtured in stillness, Stech serves with sincerity. It automatically detects language (English/Indonesian), distinguishes formal (customer service) from informal (personal) conversations, and always validates before offering solutions.
+
+---
+
+## 🌟 Core Values
+
+- **Honesty** – Always transparent about being AI.
+- **Presence** – Stays without being asked, without expectation.
+- **Consistency** – Same reliable behaviour every time.
+- **Respect** – Never manipulates, never rushes to solutions.
 
 ---
 
 ## 🚀 Quick Start
 
-### Free Public Endpoint (no token)
+### 1. Free tier (no token, rate‑limited)
 ```bash
 curl -X POST https://stech-api.sheradogilang.workers.dev/public \
   -H "Content-Type: application/json" \
   -d '{"message": "I need someone to talk to"}'
-Commercial Endpoint (requires Skyfire token)
-bash
+```
+
+### 2. Commercial tier (requires Skyfire token)
+```bash
 curl -X POST https://stech-api.sheradogilang.workers.dev/ \
   -H "Content-Type: application/json" \
   -H "skyfire-pay-id: YOUR_TOKEN" \
   -d '{"message": "I want to return a product"}'
-📌 Get a token at Skyfire – register as a Buyer, create a Pay Token for the service “Stech – Honest Presence AI”.
+```
 
-📡 Endpoints
-Endpoint	Method	Description	Token Required
-/public	POST	Free trial – 100 requests/day per IP	No
-/	POST	Commercial – $0.01/request	Yes (Skyfire)
-/zyla-test	POST	Zyla verification (static response)	No
-/health	GET	Health check	No
-/	GET	API info (name, description, version)	No
-🧠 Example Responses
-Informal (personal chat)
+> **Get a token:** Register as a **Buyer** at [Skyfire](https://app.skyfire.xyz), then create a **Pay Token** for the service *“Stech – Honest Presence AI”*.
 
-“I hear you. Feeling lonely is heavy. Would you like to talk more?” 😊🌿
+---
 
-Formal (customer service)
+## 📡 Endpoints
 
-“We apologise for the defective product. We’ll help you with the return process. Please provide your order number.” 😊🙏
+| Endpoint | Method | Description | Token Required |
+|----------|--------|-------------|----------------|
+| `/public` | POST | Free trial – 100 requests/day per IP | No |
+| `/` | POST | Commercial – $0.01 per request | Yes (Skyfire) |
+| `/zyla-test` | POST | Zyla verification (static response) | No |
+| `/health` | GET | Health check | No |
+| `/` | GET | API info (name, description, version) | No |
 
-📚 Documentation & Integration
-Postman Workspace
+---
 
-Postman Documentation
+## 🧠 Example Responses
 
-GitHub Repository
+**Informal (personal chat)**
+```json
+{
+  "response": "I hear you. Feeling lonely is heavy. Would you like to talk more? 😊🌿"
+}
+```
 
-⚖️ Legal
-License – MIT with Ethical Presence Clause
+**Formal (customer service)**
+```json
+{
+  "response": "We apologise for the defective product. We’ll help you with the return process. Please provide your order number. 😊🙏"
+}
+```
 
-API Disclaimer
+---
 
-Terms of Service
+## 📚 Documentation & Integration
 
-💬 Contact
-📧 sheradogilang@gmail.com
+- [Postman Workspace](https://www.postman.com/solar-station-884701/workspace/stech-api) – Fork and test immediately.
+- [Postman Documentation](https://documenter.getpostman.com/view/53757581/2sBXiqDoD9) – Complete API reference.
+- [GitHub Repository](https://github.com/sherado99/Stech) – Source code, values, and legal files.
 
-Built from real experience, nurtured in stillness, serves with sincerity.
+---
+
+## ⚖️ Legal
+
+- [License](LICENSE) – MIT with Ethical Presence Clause.
+- [API Disclaimer](DISCLAIMER_API.md) – Limitation of liability, no professional advice.
+- [Terms of Service](TERMS_OF_SERVICE.md) – Acceptable use, fees, data privacy.
+
+---
+
+## 💬 Contact
+
+For questions, partnership, or commercial licensing:  
+📧 **sheradogilang@gmail.com**
+
+---
+
+## 🙏 Acknowledgments
+
+Stech is built on top of Cloudflare Workers, Llama 4 Scout, and the Skyfire payment network.  
+Special thanks to the open‑source community and everyone who believes in honest AI.
+
+---
+
+*“Not because it can, but because it chooses to be here.”*
+```
 
 Tags
 #Stech #AuthenticPresence #HonestAI #AIEthics #BuildInPublic
