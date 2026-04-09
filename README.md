@@ -1,4 +1,10 @@
-<img width="324" height="402" alt="IMG_20260407_032206" src="https://github.com/user-attachments/assets/53dec43c-35e7-4e42-a11e-cd8bb9e0b7f6" />
+<div align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/53dec43c-35e7-4e42-a11e-cd8bb9e0b7f6" 
+    alt="Stech" 
+    style="max-width: 180px; width: 100%; height: auto; border-radius: 12px;" 
+  />
+</div>
 
 # Stech – Honest, Warm AI Presence
 
