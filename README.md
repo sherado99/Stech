@@ -100,18 +100,19 @@ Special thanks to the open‑source community and everyone who believes in hones
 
 *“Not because it can, but because it chooses to be here.”*
 ```
-
+---
 Tags
 #Stech #AuthenticPresence #HonestAI #AIEthics #BuildInPublic
-
+```
 ---
 ## POSTMAN
 
 Run in Postman
-https://run.pstmn.io/button.svg
+**https://run.pstmn.io/button.svg**
 
 You can also use the HTML embed code below:
-
+```
+---
 html
 <div class="postman-run-button"
   data-postman-action="collection/fork"
