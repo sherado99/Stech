@@ -104,8 +104,9 @@ Special thanks to the open‑source community and everyone who believes in hones
 Tags
 #Stech #AuthenticPresence #HonestAI #AIEthics #BuildInPublic
 
+---
+## POSTMAN
 
-**POSTMAN**
 Run in Postman
 https://run.pstmn.io/button.svg
 
