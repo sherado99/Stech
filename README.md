@@ -1,6 +1,7 @@
 <div align="left">
   <img 
     src="https://github.com/user-attachments/assets/53dec43c-35e7-4e42-a11e-cd8bb9e0b7f6" 
+<img width="1979" height="495" alt="916252e43bc3db426a3def47451be5c1340e26f86bf7785e256f1f86b9fe53d3" src="https://github.com/user-attachments/assets/3a661d18-e427-4ac1-84ae-873bdef8add1" />
     alt="Stech" 
     style="max-width: 180px; width: 15%; height: auto; border-radius: 12px;" 
   />
