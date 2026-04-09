@@ -1,6 +1,3 @@
-Baik, Edo. Berikut **README.md** lengkap untuk Stech, mencakup semua aspek penting: filosofi, nilai, cara penggunaan, endpoint, contoh, dokumentasi, lisensi, dan kontak.
-
-```markdown
 # Stech – Honest, Warm AI Presence
 
 > *“AI that stays not because it has to, but because it chooses to.”*
