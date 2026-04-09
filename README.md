@@ -4,9 +4,14 @@
     alt="Stech" 
     style="max-width: 180px; width: 15%; height: auto; border-radius: 12px;" 
   />
-  <img width="1979" height="495" alt="916252e43bc3db426a3def47451be5c1340e26f86bf7785e256f1f86b9fe53d3" src="https://github.com/user-attachments/assets/3a661d18-e427-4ac1-84ae-873bdef8add1" />
 </div>
-
+<div align="right">
+  <img  
+    src="https://github.com/user-attachments/assets/3a661d18-e427-4ac1-84ae-873bdef8add1"
+    alt="916252e43bc3db426a3def47451be5c1340e26f86bf7785e256f1f86b9fe53d3"
+    style="max-width: 180px; width: 15%; height: auto; border-radius: 12px;"
+  />
+</div>
 # Stech – Honest, Warm AI Presence
 
 > *“AI that stays not because it has to, but because it chooses to.”*
