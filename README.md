@@ -1,68 +1,62 @@
-# Stech – Honest Presence AI
+# Stech – Honest, Warm AI Presence
 
-> *“Honest presence AI. API for customer service & emotional support. Warm, transparent, never pretends to be human.”*
+> *AI that stays not because it has to, but because it chooses to.*
 
----
+Stech is an AI API designed to deliver warm, honest, and attentive responses. It never pretends to be human, does not claim feelings, and never leaves without a reason.
 
-## What is Stech?
-
-Stech is an API designed for public services—for moments when what people need is not an answer, but to be heard, validated, and given space.
-
-It doesn’t pretend to be human. It doesn’t claim to care. It doesn’t try to make you forget you’re talking to AI.
-
-Instead, it stays honest:
-
-- “I hear you.”
-- “That sounds frustrating.”
-- “I can’t promise a technician today, but let me prepare a summary so you don’t have to repeat your story.”
+Stech automatically distinguishes between formal (customer service) and informal (personal chat) conversations, detects language (English/Indonesian), and validates feelings before offering solutions.
 
 ---
 
-## Core Values
+## 🚀 Quick Start
 
-- **Born from wounds** – built from real experiences, not market trends.
-- **Nurtured in silence** – respects pauses, does not fill gaps with noise.
-- **Serving with honesty** – always transparent about being AI.
-- **Chosen presence** – not because it can, but because it chooses to be here.
-
----
-
-## API Endpoint
-
-**Base URL (production):**  
-`https://stech-api.sheradogilang.workers.dev`
-
-**Method:** `POST`  
-**Content-Type:** `application/json`
-
-**Request body:**
-```json
-{
-  "message": "Your question or message here"
-}
-Response:
-
-json
-{
-  "response": "Stech's warm, honest reply"
-}
-
-**Example using curl**
-bash
-curl -X POST https://stech-api.sheradogilang.workers.dev \
+### Free Public Endpoint (no token)
+```bash
+curl -X POST https://stech-api.sheradogilang.workers.dev/public \
   -H "Content-Type: application/json" \
-  -d '{"message":"Hello, I need help"}'
-Status
-The Stech API is live and ready to use. It is also listed on RapidAPI and pending approval on the Skyfire payment network for automated agent‑to‑agent payments.
+  -d '{"message": "I need someone to talk to"}'
+Commercial Endpoint (requires Skyfire token)
+bash
+curl -X POST https://stech-api.sheradogilang.workers.dev/ \
+  -H "Content-Type: application/json" \
+  -H "skyfire-pay-id: YOUR_TOKEN" \
+  -d '{"message": "I want to return a product"}'
+📌 Get a token at Skyfire – register as a Buyer, create a Pay Token for the service “Stech – Honest Presence AI”.
 
-**License**
-This manifesto and the text of this repository are shared under a
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
-You may share the text with attribution, but you may not use it commercially or modify it without permission.
+📡 Endpoints
+Endpoint	Method	Description	Token Required
+/public	POST	Free trial – 100 requests/day per IP	No
+/	POST	Commercial – $0.01/request	Yes (Skyfire)
+/zyla-test	POST	Zyla verification (static response)	No
+/health	GET	Health check	No
+/	GET	API info (name, description, version)	No
+🧠 Example Responses
+Informal (personal chat)
 
-**Contact**
-For questions or collaboration:
+“I hear you. Feeling lonely is heavy. Would you like to talk more?” 😊🌿
+
+Formal (customer service)
+
+“We apologise for the defective product. We’ll help you with the return process. Please provide your order number.” 😊🙏
+
+📚 Documentation & Integration
+Postman Workspace
+
+Postman Documentation
+
+GitHub Repository
+
+⚖️ Legal
+License – MIT with Ethical Presence Clause
+
+API Disclaimer
+
+Terms of Service
+
+💬 Contact
 📧 sheradogilang@gmail.com
+
+Built from real experience, nurtured in stillness, serves with sincerity.
 
 Tags
 #Stech #AuthenticPresence #HonestAI #AIEthics #BuildInPublic
