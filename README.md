@@ -12,6 +12,14 @@ data-postman-collection-url="entityId=53757581-2b6f3711-c50d-49b0-bc22-82e0ec5da
     ));
   }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
 </script>
+</div>
+
+
+
+
+
+
+
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <img 
@@ -24,12 +32,6 @@ data-postman-collection-url="entityId=53757581-2b6f3711-c50d-49b0-bc22-82e0ec5da
     alt="Stech logo"
     style="max-width: 180px; width: 50%; height: auto; border-radius: 12px;"
   />
-</div>
-
-
-
-
-
 
 
 # Stech – Honest, Warm AI Presence
