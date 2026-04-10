@@ -22,7 +22,7 @@
 
 Stech is an AI API designed to deliver **warm, honest, and attentive** responses. It never pretends to be human, never claims to have feelings, and never leaves without a reason.
 
-Built from real experience, nurtured in stillness, Stech serves with sincerity. It automatically detects language (English/Indonesian), distinguishes formal (customer service) from informal (personal) conversations, and always validates before offering solutions.
+Built from real experience, nurtured in stillness, Stech serves with sincerity. It automatically detects Multi language Supports, distinguishes formal (customer service) from informal (personal) conversations, and always validates before offering solutions.
 
 ---
 
