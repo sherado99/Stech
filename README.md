@@ -46,10 +46,10 @@ It automatically detects multiple languages, distinguishes formal (customer serv
 
 - **Honest & transparent** – no fake empathy, no manipulation.
 - **Automatic tone adaptation** – switches between formal and informal based on message keywords.
-- **Bilingual** – responds naturally in English or Indonesian.
+- **Multi‑language** – responds naturally in the user's language.
 - **Crisis awareness** – detects severe distress and provides hotline numbers.
 - **Stateless & privacy‑first** – no memory of past conversations.
-- **Free tier available** – test at `/public` endpoint (100 requests/day per IP).
+- **Monetized via RapidAPI** – simple subscription plans, no extra tokens.
 
 ---
 
@@ -62,63 +62,62 @@ It automatically detects multiple languages, distinguishes formal (customer serv
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (via RapidAPI)
 
-### 1. Free tier (no token, rate‑limited)
+1. **Subscribe** to a plan on [RapidAPI](https://rapidapi.com/sheradogilang/api/stech-honest-presence-ai).
+2. **Get your API Key** from the RapidAPI dashboard.
+3. **Send a request** using the code below (replace `YOUR_RAPIDAPI_KEY` with your actual key).
+
 ```bash
-curl -X POST https://stech-api.sheradogilang.workers.dev/public \
-  -H "Content-Type: application/json" \
-  -d '{"message": "I need someone to talk to"}'
+curl --request POST \
+  --url 'https://stech-honest-presence-ai.p.rapidapi.com/' \
+  --header 'Content-Type: application/json' \
+  --header 'x-rapidapi-host: stech-honest-presence-ai.p.rapidapi.com' \
+  --header 'x-rapidapi-key: YOUR_RAPIDAPI_KEY' \
+  --data '{"message": "I need someone to talk to"}'
 ```
-
-### 2. Commercial tier (requires Skyfire token)
-```bash
-curl -X POST https://stech-api.sheradogilang.workers.dev/ \
-  -H "Content-Type: application/json" \
-  -H "skyfire-pay-id: YOUR_TOKEN" \
-  -d '{"message": "I want to return a product"}'
-```
-
-> **Get a token:** Register as a **Buyer** at [Skyfire](https://app.skyfire.xyz), then create a **Pay Token** for the service *“Stech – Honest Presence AI”*.
 
 ---
 
 ## 📡 Endpoints
 
-| Endpoint | Method | Description | Token Required |
-|----------|--------|-------------|----------------|
-| `/public` | POST | Free trial – 100 requests/day per IP | No |
-| `/` | POST | Commercial – $0.01 per request | Yes (Skyfire) |
-| `/zyla-test` | POST | Zyla verification (static response) | No |
-| `/health` | GET | Health check | No |
-| `/` | GET | API info (name, description, version) | No |
+| Endpoint | Method | Description | Access |
+|----------|--------|-------------|--------|
+| `/` | POST | Main chat endpoint – send a message, get a warm AI response | Requires valid RapidAPI subscription & key |
+| `/` | GET | API information (name, description, version) | Public (no key) |
+
+> **Note:** The base URL for all endpoints is `https://stech-honest-presence-ai.p.rapidapi.com` (RapidAPI gateway). Your API key must be included in the `x-rapidapi-key` header.
 
 ---
 
 ## 🧠 Example Responses
 
-**Formal (customer service)**  
-Request:
+### Formal (customer service)
+
+**Request:**
 ```json
 {
   "message": "My order hasn't arrived yet"
 }
 ```
-Response:
+
+**Response:**
 ```json
 {
   "response": "We apologise for the delay. Let us check your order status. Please provide your order number. 😊🙏"
 }
 ```
 
-**Informal (personal chat)**  
-Request:
+### Informal (personal chat)
+
+**Request:**
 ```json
 {
   "message": "I feel lonely today"
 }
 ```
-Response:
+
+**Response:**
 ```json
 {
   "response": "I hear you. Feeling lonely is heavy. Would you like to talk more? 😊🌿"
@@ -132,8 +131,7 @@ Response:
 - [Postman Workspace](https://www.postman.com/solar-station-884701/workspace/stech-api) – Fork and test immediately.
 - [Postman Documentation](https://documenter.getpostman.com/view/53757581/2sBXiqDoD9) – Complete API reference.
 - [GitHub Repository](https://github.com/sherado99/Stech) – Source code, values, and legal files.
-- [RapidAPI](https://rapidapi.com/sheradogilang/api/stech-honest-presence-ai) – Marketplace listing.
-- [Zyla API Hub](https://zylalabs.com/api-marketplace/...) – Marketplace listing (add your URL).
+- [RapidAPI Listing](https://rapidapi.com/sheradogilang/api/stech-honest-presence-ai) – Subscribe and manage your plan.
 
 ---
 
@@ -168,13 +166,13 @@ For questions, partnership, or commercial licensing:
 
 ## 🙏 Acknowledgments
 
-Stech is built on top of Cloudflare Workers, Llama 4 Scout, and the Skyfire payment network.  
+Stech is built on top of Cloudflare Workers and Llama 4 Scout.  
 Special thanks to the open‑source community and everyone who believes in honest AI.
 
 ---
 
 *“Not because it can, but because it chooses to be here.”*
 
----
-
 **Tags:** `#Stech` `#AuthenticPresence` `#HonestAI` `#AIEthics` `#BuildInPublic`
+
+
