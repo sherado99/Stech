@@ -57,13 +57,38 @@ The Stech API has undergone multiple external security scans. Below are the resu
 
 ### 3. ImmuniWeb – SSL/TLS Security Test
 
-- **Test Date:** April 18, 2026
+- **Test Date:** April 18, 2026 (after HSTS and redirect deployment)
 - **Endpoint:** `https://stech-api.sheradogilang.workers.dev:443`
-- **Final Grade:** **A-** (on a scale from A+ to F)
+- **Final Grade:** **A** (on a scale from A+ to F)
 - **Compliance:**
   - **PCI DSS:** Partially compliant – TLS 1.0 and 1.1 are still supported (due to Cloudflare Workers.dev platform default settings). All cipher suites are PCI DSS compliant.
   - **NIST & HIPAA:** Non-compliant due to:
     - TLS 1.0 and 1.1 being enabled.
+    - One cipher suite (`TLS_CHACHA20_POLY1305_SHA256`) flagged as non-compliant.
+    - Certificate does not provide OCSP revocation information.
+- **Key Findings:**
+  - Valid TLS certificate (ECDSA 256 bits, issuer E7, expires June 20, 2026).
+  - Supports TLS 1.2 and 1.3 (good) but also TLS 1.0 and 1.1 (legacy, platform limitation).
+  - **HTTP → HTTPS redirect enabled** (Always-on SSL).
+  - **HSTS enabled** with long duration (max-age=31536000 seconds, includeSubDomains, preload ready).
+  - No OCSP stapling – limitation of `*.workers.dev` certificates.
+  - Not vulnerable to known attacks (Heartbleed, ROBOT, POODLE, etc.).
+  - No industry best practice issues remain.
+
+**Why grade A (not A+)?**  
+The Stech API is hosted on Cloudflare Workers.dev, which uses a shared certificate infrastructure. The platform automatically enables TLS 1.0/1.1 and certain cipher suites that cannot be disabled at the user level. These are the only factors preventing an A+ grade. From a practical security perspective, the API remains fully protected against all known TLS vulnerabilities and meets industry standards for most use cases.
+
+**Action Plan for A+ (with custom domain):**  
+- Purchase a custom domain (e.g., `api.stech.ai`) and configure it through Cloudflare.
+- Set **Minimum TLS Version** to **TLS 1.2** (disabling TLS 1.0/1.1).
+- Use a certificate with OCSP stapling (Cloudflare provides this for proxied domains).
+
+**Shareable Certificate:**  
+A PDF certificate and digital badge for the **A** grade can be downloaded from the ImmuniWeb report page.
+
+---
+
+*We continuously work to improve API security and plan to obtain formal certifications (e.g., OWASP compliance, SOC 2) in the future.*    - TLS 1.0 and 1.1 being enabled.
     - One cipher suite (`TLS_CHACHA20_POLY1305_SHA256`) flagged as non-compliant.
     - Certificate does not provide OCSP revocation information.
 - **Key Findings:**
