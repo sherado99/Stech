@@ -32,7 +32,6 @@ src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="height: 32px; 
 
 ---
 
-markdown
 # Stech – Honest, Warm AI Presence
 
 > *“Not because it can, but because it chooses to be here.”*
