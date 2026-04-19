@@ -97,21 +97,21 @@ Request:
   "message": "My order hasn't arrived yet"
 }
 Response:
-```
-```json
+
+json
 {
   "response": "We apologise for the delay. Let us check your order status. Please provide your order number. 😊🙏"
 }
 Informal (personal chat)
 Request:
-```
+
 ```json
 {
   "message": "I feel lonely today"
 }
 Response:
-```
-```json
+
+json
 {
   "response": "I hear you. Feeling lonely is heavy. Would you like to talk more? 😊🌿"
 }
