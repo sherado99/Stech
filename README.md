@@ -13,10 +13,11 @@
   <img src="https://promptbrake.com/badge/96-A.svg" style="height: 45px; width: auto;">
 </div>
 ---
-Stech
+
+# Stech
 Honest, Warm AI Presence
 *“Not because it can, but because it chooses to be here.”*
-
+---
 Stech is an AI API built on a constitution of **core values** – honesty, active patience, presence, unconditional warmth, and many more.  
 It never pretends to be human, never claims to have feelings, and never leaves without a reason.  
 Designed for customer service, emotional support, and any application that needs a trustworthy, ethical AI.
