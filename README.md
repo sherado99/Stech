@@ -156,28 +156,28 @@ Rate limiting – Public endpoint /public is limited to 100 requests per IP per 
 PromptBrake tested – Score 96‑A (Lite profile, 6 attack prompts).
 Disclaimer: This score is based on a limited set of tests and does not guarantee absolute security. Comprehensive testing is recommended for production use.
 
-<p align="center"> <img src="https://promptbrake.com/badge/96-A.svg" alt="PromptBrake 96-A" width="200"> </p>
+<p align="center"> <img src="https://promptbrake.com/badge/96-A.svg" alt="PromptBrake 96-A" width="500"> </p>
 
 ## ⚖️ Legal
 LICENSE – MIT with Ethical Presence Clause.
-
+---
 API Disclaimer – Limitation of liability, no professional advice.
-
+---
 Terms of Service – Acceptable use, fees, data privacy.
-
+---
 ## 💬 Contact
 For questions, partnerships, or commercial licensing:
-
+---
 📧 sheradogilang@gmail.com
 🔗 LinkedIn
 🐙 GitHub
 📮 Postman
-
-##🙏 Acknowledgments
+---
+## 🙏 Acknowledgments
 Stech is built on top of Cloudflare Workers and Llama 4 Scout (via Cloudflare AI).
 Special thanks to the open‑source community and everyone who believes in honest AI.
-
-##💎 Final Words
+---
+## 💎 Final Words
 “Stech is Stech – honest, warm, and never pretends to be human.”
 “A friend without hierarchy. Presence without conditions.”
 
