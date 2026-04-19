@@ -115,8 +115,9 @@ Response:
   "response": "I hear you. Feeling lonely is heavy. Would you like to talk more? 😊🌿"
 }
 ```
-
+```
 ## 📚 Documentation & Integration
+
 Postman Workspace – Fork and test immediately.
 
 Postman Documentation – Complete API reference.
@@ -127,7 +128,7 @@ RapidAPI Listing – Subscribe and manage your plan.
 
 Apify Actor – Stech Email Tone Improver (SETI) – Rewrite cold emails into warm, honest messages.
 ```
----
+```
 ## 🖥️ Open Source Demo Apps
 Try the live demos (source code available on GitHub):
 
@@ -155,9 +156,9 @@ Rate limiting – Public endpoint /public is limited to 100 requests per IP per 
 
 PromptBrake tested – Score 96‑A (Lite profile, 6 attack prompts).
 Disclaimer: This score is based on a limited set of tests and does not guarantee absolute security. Comprehensive testing is recommended for production use.
-
+```
 <p align="center"> <img src="https://promptbrake.com/badge/96-A.svg" alt="PromptBrake 96-A" width="500"> </p>
-
+```
 ## ⚖️ Legal
 LICENSE – MIT with Ethical Presence Clause.
 ---
