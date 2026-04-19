@@ -96,7 +96,6 @@ Request:
 {
   "message": "My order hasn't arrived yet"
 }
-Response:
 {
   "response": "We apologise for the delay. Let us check your order status. Please provide your order number. 😊🙏"
 }
@@ -107,7 +106,6 @@ Request:
 {
   "message": "I feel lonely today"
 }
-Response:
 {
   "response": "I hear you. Feeling lonely is heavy. Would you like to talk more? 😊🌿"
 }
