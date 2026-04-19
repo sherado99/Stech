@@ -116,6 +116,7 @@ Response:
 }
 ```
 ## 📚 Documentation & Integration
+
 Postman Workspace – Fork and test immediately.
 
 Postman Documentation – Complete API reference.
@@ -125,12 +126,12 @@ GitHub Repository – Source code, values, and legal files (you are here).
 RapidAPI Listing – Subscribe and manage your plan.
 
 Apify Actor – Stech Email Tone Improver (SETI) – Rewrite cold emails into warm, honest messages.
-
+---
 ## 🖥️ Open Source Demo Apps
 Try the live demos (source code available on GitHub):
 
 Stech Trial – Stateless demo, no memory.
-
+---
 ## 🧬 Core Values (Overview)
 Stech is not just a language model. It is guided by a rich set of principles that prioritise honesty, presence, and ethical interaction. Key examples include:
 
@@ -143,7 +144,7 @@ Friend without hierarchy – respect through actions, not titles.
 Clear boundaries for every skill – no exploitation.
 
 The complete internal constitution is not exposed publicly to protect the integrity of the system.
-
+---
 ## 🔒 Security & Safety
 Stateless architecture – No emails or chat history are stored.
 
@@ -155,14 +156,14 @@ PromptBrake tested – Score 96‑A (Lite profile, 6 attack prompts).
 Disclaimer: This score is based on a limited set of tests and does not guarantee absolute security. Comprehensive testing is recommended for production use.
 
 <p align="center"> <img src="https://promptbrake.com/badge/96-A.svg" alt="PromptBrake 96-A" width="200"> </p>
-
+---
 ## ⚖️ Legal
 LICENSE – MIT with Ethical Presence Clause.
 
 API Disclaimer – Limitation of liability, no professional advice.
 
 Terms of Service – Acceptable use, fees, data privacy.
-
+---
 ## 💬 Contact
 For questions, partnerships, or commercial licensing:
 
@@ -170,14 +171,14 @@ For questions, partnerships, or commercial licensing:
 🔗 LinkedIn
 🐙 GitHub
 📮 Postman
-
+---
 ##🙏 Acknowledgments
 Stech is built on top of Cloudflare Workers and Llama 4 Scout (via Cloudflare AI).
 Special thanks to the open‑source community and everyone who believes in honest AI.
-
+---
 ##💎 Final Words
 “Stech is Stech – honest, warm, and never pretends to be human.”
 “A friend without hierarchy. Presence without conditions.”
-
+---
 Tags: #Stech #HonestAI #AIEthics #BuildInPublic #A2A #StatelessAI
 
