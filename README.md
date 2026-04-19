@@ -181,8 +181,8 @@ Stech is built on top of Cloudflare Workers and Llama 4 Scout (via Cloudflare AI
 Special thanks to the open‑source community and everyone who believes in honest AI.
 
 ## 💎 Final Words
-“Stech is Stech – honest, warm, and never pretends to be human.”
-“A friend without hierarchy. Presence without conditions.”
+<p align="center">“Stech is Stech – honest, warm, and never pretends to be human.” </p>
+<p align="center">“A friend without hierarchy. Presence without conditions.” </p>
 
-Tags: #Stech #HonestAI #AIEthics #BuildInPublic #A2A #StatelessAI
+<p align="center">Tags: #Stech #HonestAI #AIEthics #BuildInPublic #A2A #StatelessAI </p>
 
