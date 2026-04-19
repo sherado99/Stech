@@ -161,23 +161,23 @@ Disclaimer: This score is based on a limited set of tests and does not guarantee
 ```
 ## ⚖️ Legal
 LICENSE – MIT with Ethical Presence Clause.
----
+
 API Disclaimer – Limitation of liability, no professional advice.
----
+
 Terms of Service – Acceptable use, fees, data privacy.
----
+
 ## 💬 Contact
 For questions, partnerships, or commercial licensing:
----
+
 📧 sheradogilang@gmail.com
 🔗 LinkedIn
 🐙 GitHub
 📮 Postman
----
+
 ## 🙏 Acknowledgments
 Stech is built on top of Cloudflare Workers and Llama 4 Scout (via Cloudflare AI).
 Special thanks to the open‑source community and everyone who believes in honest AI.
----
+
 ## 💎 Final Words
 “Stech is Stech – honest, warm, and never pretends to be human.”
 “A friend without hierarchy. Presence without conditions.”
