@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="250" alt="Stech" src="https://github.com/user-attachments/assets/80c2b9b9-4b7b-4d5a-a906-87e94209d66b" />
+  <img width="300" alt="Stech" src="https://github.com/user-attachments/assets/80c2b9b9-4b7b-4d5a-a906-87e94209d66b" />
 </div>
 
 #
@@ -59,12 +59,14 @@ curl --request POST \
   
 ### 📡 Endpoints
 
-- Endpoint	Method	Description	Access
-- /	POST	Main chat endpoint – send a message, get a warm AI response	Requires valid RapidAPI subscription & key
-- /health	GET	Health check	Public (no key)
-- /	GET	API information (name, description, version)	Public (no key)
-- Base URL (RapidAPI gateway): https://stech-honest-presence-ai.p.rapidapi.com
-- Your API key must be included in the x-rapidapi-key header.
+| Endpoint | Method | Description | Access |
+| :--- | :--- | :--- | :--- |
+| `/` | POST | Main chat endpoint | Requires valid RapidAPI key |
+| `/health` | GET | Health check | Public (no key) |
+| `/` | GET | API information | Public (no key) |
+
+**Base URL (RapidAPI gateway):** `https://stech-honest-presence-ai.p.rapidapi.com`  
+Your API key must be included in the `x-rapidapi-key` header.
 
 ### 🧪 Example Responses
 
@@ -241,11 +243,10 @@ For questions, partnerships, or commercial licensing:
   Tags: #Stech #HonestAI #AIEthics #BuildInPublic #A2A #StatelessAI
 </p>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; align-items: center; margin: 20px 0;">
-  <img src="https://promptbrake.com/badge/96-A.svg" alt="PromptBrake 96-A" width="180">
-  <img src="https://img.shields.io/website?url=https://stech-api.sheradogilang.workers.dev/health" alt="Cloudflare Worker Status">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; align-items: center; margin: 60px 0;">
+  <img src="https://promptbrake.com/badge/96-A.svg" alt="PromptBrake 96-A" width="250">
   <a href="https://www.postman.com/solar-station-884701" target="_blank">
-  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="height: 20px; width: auto;">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" style="height: 30px; width: auto;">
   </a>
   <img src="https://assets.postman.com/postman-docs/icon-verified-badge-v11.jpg" alt="Postman Verified" style="height: 20px; width: auto;">
 </div>
