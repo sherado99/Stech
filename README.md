@@ -14,7 +14,7 @@
 </div>
 
 ---
-# <p align="center"> Stech <p/>
+<p align="center"> Stech <p/>
 <p align="center"> Honest, Warm AI Presence <p/>
 <p align="center"> *“Not because it can, but because it chooses to be here.”* <p/>
 
