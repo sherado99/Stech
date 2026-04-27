@@ -84,6 +84,4 @@ ANY KIND, EXPRESS OR IMPLIED.
 
 ---
 
-**For commercial licensing, please contact: sheradogilang@gmail.com**y all copies, including any modifications.
-
-For commercial licensing inquiries, please contact: sheradogilang@gmail.com
+**For commercial licensing, please contact: sheradogilang@gmail.com**
