@@ -1,59 +1,89 @@
-Stech Commercial License (SCL) – 2026
-Copyright (c) 2026 Sheradogilang / Edo
+# Stech & SETI Proprietary License v1.0 — All Rights Reserved
 
-1. License Grant
-   Permission is granted to use, copy, modify, merge, publish, distribute, sublicense,
-   and/or sell copies of the Software **only under a valid commercial license obtained
-   directly from the copyright holder**. Any use, redistribution, or deployment without
-   a written commercial agreement is strictly prohibited.
+**Copyright (c) 2026 Edo / Sheradogilang. All Rights Reserved.**
 
-2. Non‑Commercial Use Exception
-   Individuals and organizations may use the Software for non‑commercial purposes
-   (e.g., personal learning, academic research, non‑profit open‑source projects)
-   without a commercial license, provided they:
-   - Do not generate revenue from the Software or its outputs.
-   - Do not deploy the Software as a public API service that competes with Stech.
-   - Do not remove or alter this license or any copyright notices.
-   - Preserve the Ethical Presence clause (section 3) and Attribution clause (section 5).
+CRITICAL NOTICE: This license protects the software you are viewing.
+This is NOT an open-source license. It is a strictly restrictive
+"source available" license.
 
-3. Ethical Presence
-   The Software is built on the principles of honesty, warm presence, and respect for
-   human autonomy. Any use, modification, or distribution must honour these principles:
-   - Do not present the Software as possessing human emotions, consciousness, or feelings.
-   - Do not manipulate, deceive, or replace genuine human interaction.
-   - Preserve the intent of the core operational rules (BS, R, BSR). Substantial
-     alteration of these values must be clearly documented and communicated to end users.
+BY VIEWING, ACCESSING, OR SAVING THIS SOURCE CODE, YOU AGREE TO BE
+BOUND BY ALL TERMS SET FORTH IN THIS LICENSE.
 
-4. Commercial Use
-   A commercial license is required for any use that generates revenue, including but
-   not limited to:
-   - Selling API access, subscriptions, or usage‑based fees.
-   - Embedding the Software into a paid product or service.
-   - Using the Software within a for‑profit organisation to improve operational efficiency
-     or reduce costs (internal commercial use).
-   - Any deployment in a production environment by a for‑profit entity.
+---
 
-   Licenses are issued by the copyright holder (Edo / Sheradogilang). Pricing,
-   subscription terms, and usage limits are determined on a case‑by‑case basis.
-   Unauthorised commercial use may result in legal action.
+## 1. Granted Rights (Extremely Limited)
 
-5. No Warranty
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-   PARTICULAR PURPOSE, OR NONINFRINGEMENT. THE COPYRIGHT HOLDER SHALL NOT BE LIABLE
-   FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
-   OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
-   OR OTHER DEALINGS IN THE SOFTWARE.
+The copyright holder grants you only the right to:
 
-6. Attribution
-   Any public deployment or distribution of the Software, or its substantial derivatives,
-   must include clear acknowledgment that the original work was created by
-   **Edo (Sheradogilang)** and that its behavioural and ethical design is derived from
-   the "Stech" project.
+**View and Download the Code (Read & Download Only):**
+You may view and store this source code on your local machine,
+solely for the purpose of personal evaluation, security audit,
+or your own educational reference.
 
-7. Termination
-   Any use of the Software that violates the terms above automatically terminates
-   the rights granted under this license. Upon termination, the user must cease all
-   use of the Software and destroy all copies, including any modifications.
+**NO OTHER RIGHTS ARE GRANTED.** All other rights are explicitly
+reserved by the copyright holder.
+
+---
+
+## 2. Prohibited Uses
+
+You are **EXPLICITLY PROHIBITED** from:
+
+- **Using** this software for any purpose whatsoever.
+- **Modifying, adapting, or creating derivative works** of
+  this software.
+- **Redistributing, selling, renting, or lending** this
+  software to third parties.
+- **Integrating or incorporating** this software into any
+  other product or service.
+- **Using** this software for data processing or providing any
+  service, whether internally or externally.
+- **Reverse engineering, decompiling, or extracting** the
+  architectural elements of this software.
+
+---
+
+## 3. Usage Permission (The Only Way)
+
+The only way to obtain rights to use, modify, or distribute is
+through a **written Commercial License Agreement** signed directly
+by the copyright holder.
+
+For SETI, a commercial license is automatically granted each time
+the Actor is run via the Apify Store under the Pay-Per-Event (PPE)
+model. Each "run" constitutes one license.
+
+---
+
+## 4. Proprietary Architecture Protection
+
+This software embodies an integrated proprietary architecture
+consisting of core values, operational rules, and behavioral
+patterns that govern its function and output.
+
+You are strictly prohibited from:
+- Extracting, imitating, or replicating this architecture.
+- Training other AI systems with the output of this software.
+- Claiming ownership of, or creating derivative frameworks based
+  on, this architecture without a written agreement.
+
+---
+
+## 5. Termination
+
+Any violation of the terms of this license will automatically
+and immediately terminate all of your rights. The copyright
+holder reserves the right to seek full compensation in court.
+
+---
+
+## 6. Disclaimer
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED.
+
+---
+
+**For commercial licensing, please contact: sheradogilang@gmail.com**y all copies, including any modifications.
 
 For commercial licensing inquiries, please contact: sheradogilang@gmail.com
