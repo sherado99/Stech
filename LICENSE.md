@@ -1,4 +1,4 @@
-# Stech & SETI Proprietary License v1.0 — All Rights Reserved
+# Stech Proprietary License All Rights Reserved
 
 **Copyright (c) 2026 Edo / Sheradogilang. All Rights Reserved.**
 
