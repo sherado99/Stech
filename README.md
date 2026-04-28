@@ -186,25 +186,24 @@ Stech is not just a language model. It is guided by a rich set of principles tha
 
 ## 🔗 Links
 
-
 - Postman Workspace – Fork and test immediately
 - Postman Documentation – Complete API reference
 - GitHub Repository – Source code, values, and legal files (you are here)
 - RapidAPI Listing – Subscribe and manage your plan
 - SETI – Email Tone Improver – Rewrite cold emails into warm, honest messages (separate product)
 
-🖥️ Open Source Demo Apps
+## 🖥️ Open Source Demo Apps
 
 - Try the live demos (source code available on GitHub):
 - Stech Trial – Stateless demo, no memory. https://stech-trial.sheradogilang.workers.dev/
 
-💬 Contact
+## 💬 Contact
 For questions, partnerships, or commercial licensing:
 
-📧 Gmail: sheradogilang@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/sherado-g-b-92773b3b7/
-🐙 GitHub: https://github.com/sherado99/Stech
-📮 Postman: https://www.postman.com/solar-station-884701/stech
+- 📧 Gmail: sheradogilang@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/sherado-g-b-92773b3b7/
+- 🐙 GitHub: https://github.com/sherado99/Stech
+- 📮 Postman: https://www.postman.com/solar-station-884701/stech
 
 ---
 
