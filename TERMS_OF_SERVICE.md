@@ -1,40 +1,30 @@
-# Terms of Service for Stech API
+# Terms of Service for Stech AI API
 
-**Last updated:** April 9, 2026
+**Last Updated:** April 20, 2026
 
-By accessing or using the Stech API (“the API”), you agree to be bound by these Terms of Service. If you do not agree, you may not use the API.
+By accessing or using the Stech AI API ("the API"), you agree to these Terms of Service ("Terms"). If you do not agree, do not use the API.
 
 ## 1. Description of Service
-The API provides a conversational AI interface that responds to user messages. It offers:
-
-- A **free tier** at endpoint `POST /public` (rate‑limited to 100 requests per day per IP address).
-- A **paid tier** at endpoint `POST /` that requires a valid Skyfire payment token (cost: $0.01 per request).
+The Stech AI API provides access to an ethical AI presence that responds to user messages with warmth, honesty, and professionalism. It can be integrated into third‑party applications, automated workflows, and customer‑facing services.
 
 ## 2. Acceptable Use
-You agree to use the API only for lawful purposes and in accordance with these Terms. You must not:
-
-- Use the API to generate content that is illegal, abusive, defamatory, or discriminatory.
-- Attempt to circumvent rate limits, authentication, or any security mechanisms.
-- Reverse‑engineer, decompile, or extract the internal values (BS, R, BSR) or source code of the API.
-- Use the API in a manner that could damage, disable, or impair the API’s infrastructure.
+You agree not to use the API for any purpose that is illegal, harmful, defamatory, fraudulent, or abusive. You will not attempt to reverse engineer the underlying AI model or extract system prompts. You agree not to bypass rate‑limiting or security measures.
 
 ## 3. Intellectual Property
-The API’s underlying code and values (BS, R, BSR) are owned by Edo (Sheradogilang) and are licensed under the **Stech Commercial License (SCL)** (see `LICENSE` file in this repository). You retain ownership of any input you submit, but you grant the API owner a non‑exclusive license to process that input to generate a response.
+The core values (BS), operational rules (R), and behavioral patterns (BSR) constituting the Stech architecture are proprietary. The API and all related documentation, prompts, and configuration files are protected under the **Stech Commercial License v2.1**, which is not an open‑source license. All rights are reserved.
 
-## 4. Fees and Payments (Paid Tier)
-Use of the `POST /` endpoint requires a valid Skyfire `pay` token. You are responsible for obtaining such tokens from Skyfire. All payments are handled by Skyfire; the API owner does not directly collect payment. Fees are non‑refundable.
+## 4. Fees and Payments
+The API is available under **Pay‑Per‑Event (PPE)** and **subscription** pricing models. Access is managed through third‑party platforms such as **RapidAPI** and **Apify**. All billing, invoicing, and payment processing are handled entirely by those platforms. No separate payment relationship exists between the end user and the Stech API owner. The use of the API is at the user’s own expense, and the owner of the API shall not be responsible for any charges incurred by the user.
 
 ## 5. Data Privacy
-The API does not store your messages permanently. However, you should not send sensitive personal information (e.g., passwords, credit card numbers, health records). The API owner is not responsible for any data you voluntarily transmit.
+All user‑submitted data is processed transiently (stateless). No conversation history, user data, or personal information is stored, logged, or retained. Any data generated during a session is deleted immediately after the response is sent.
 
-## 6. Modification and Discontinuation
-We reserve the right to modify, suspend, or discontinue the API (or any part of it) at any time without prior notice. We will endeavour to notify users via the GitHub repository or other channels.
+## 6. Limitation of Liability
+To the fullest extent permitted by applicable law, the creator of the Stech API shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use of, or inability to use, the API. The API is provided "as is" without warranties of any kind, either express or implied.
 
-## 7. Limitation of Liability
-To the maximum extent permitted by law, the API owner shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (i) your use or inability to use the API; (ii) any conduct or content of any third party on the API; (iii) any content obtained from the API; or (iv) unauthorized access, use, or alteration of your transmissions or content.
+## 7. Modification and Refusal of Service
+We reserve the right to modify or discontinue the API at any time. We also reserve the right to terminate or suspend access to the API, without prior notice, for conduct that violates these Terms.
 
-## 8. Governing Law
-These Terms shall be governed by the laws of Indonesia, without regard to its conflict of law provisions.
-
-## 9. Contact Information
-For any questions about these Terms, please contact: **sheradogilang@gmail.com**
+## 8. Contact
+For commercial licensing inquiries or to report abuse, please contact:  
+**sheradogilang@gmail.com**
