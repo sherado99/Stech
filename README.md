@@ -7,7 +7,6 @@
 </div>
 
 
-```markdown
 # Stech – Honest, Warm AI Presence
 
 *Not because it can, but because it chooses to be here.*
