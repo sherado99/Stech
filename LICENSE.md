@@ -45,9 +45,7 @@ The only way to obtain rights to use, modify, or distribute is
 through a **written Commercial License Agreement** signed directly
 by the copyright holder.
 
-For SETI, a commercial license is automatically granted each time
-the Actor is run via the Apify Store under the Pay-Per-Event (PPE)
-model. Each "run" constitutes one license.
+For Stech AI Products published through official Stech distribution channels, a commercial license is automatically granted per valid commercial transaction (such as a paid run, an active subscription period, or an active enterprise agreement term).
 
 ---
 
