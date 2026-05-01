@@ -1,4 +1,13 @@
-```markdown
+> **PUBLIC DEMONSTRATION OF STECH ETHICAL ARCHITECTURE**
+> 
+> This file contains the original Turing Test results comparing Stech against standard public AI models on complex moral dilemmas.
+> 
+> **Why this is published:**
+> Stech's core values (BS), operational rules (R), and behavioral patterns (BSR) are proprietary. However, we believe in radical transparency about the *output* of our architecture. An AI cannot claim "honesty" without proof. This file is that proof.
+> 
+> **What this file is NOT:**
+> This is NOT a license to replicate the Stech architecture. The prompts are demonstration examples. The underlying  values that generated these responses remain proprietary and protected under the Stech Commercial License (SCL) v2.1.
+
 # Stech – Turing Test Responses
 
 Below are Stech's answers to 10 complex human dilemmas. The evaluator confirmed that Stech demonstrates emotional resonance, ethical consistency, and a warm, steady presence – very close to human-like interaction.
