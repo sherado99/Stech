@@ -222,3 +222,7 @@ Special thanks to the open‑source community and everyone who believes in hones
   </a>
   <img src="https://assets.postman.com/postman-docs/icon-verified-badge-v11.jpg" alt="Postman Verified">
 </div>
+
+<a href="https://aiagentsdirectory.com/agent/stech-honest-presence-api" target="_blank" rel="noopener" title="Discover Stech – Honest Presence API on AI Agents Directory">
+  <img src="https://aiagentsdirectory.com/featured-badge.svg?v=2024" alt="Stech – Honest Presence API - Featured on AI Agents Directory" width="200" height="50" />
+</a>
